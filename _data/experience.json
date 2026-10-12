@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Research Assistant",
+    "location": "University of Illinois Urbana-Champaign · Urbana, Illinois",
+    "dates": "Aug. 2023 – present",
+    "advisor": "Cecilia Leal",
+    "description": "Researching thermally actuated lipid-peptide hybrid membranes using atomic force microscopy (AFM), X-ray scattering, confocal laser scanning microscopy (CLSM), and cryo-electron microscopy. Investigating hybridization, mechanical properties, and ionic conductivity."
+  },
+  {
+    "title": "Visiting Research Assistant",
+    "location": "Karolinska Institutet · Stockholm, Sweden",
+    "dates": "May – Aug. 2026",
+    "advisor": "Erdinc Sezgin",
+    "description": "Evaluated the mechanism and sensitivity of smart probes for extracellular vesicle (EV) and giant plasma membrane vesicle (GPMV) imaging using fluorescence correlation spectroscopy (FCS) and single particle profiler (SPP)."
+  },
+  {
+    "title": "Graduation Project",
+    "location": "Sabancı University · Istanbul, Türkiye",
+    "dates": "Sep. 2022 – Jun. 2023",
+    "advisor": "Gözde Özaydın İnce",
+    "description": "Designed and conducted a two-semester project on polymer nanoparticle synthesis for drug delivery and laser-induced photothermal therapy. Performed nanoparticle synthesis, characterization, laser stimulation, and cell culture experiments."
+  },
+  {
+    "title": "Lab Research Assistant",
+    "location": "Sabancı University Nanotechnology Research and Application Center · Istanbul, Türkiye",
+    "dates": "Sep. 2021 – Jun. 2023",
+    "advisor": "Gözde Özaydın İnce and Özlem Kutlu",
+    "description": "Worked on “Patch Synthesis for Breast Cancer Treatment” for 10 hours per week. Performed polymer patch synthesis by blow spinning, iCVD coating, and live/dead cell assays."
+  },
+  {
+    "title": "Research Intern · Erasmus+",
+    "location": "Institute of Materials Science of Barcelona (ICMAB-CSIC) · Barcelona, Spain",
+    "dates": "Jun. – Sep. 2022",
+    "advisor": "Anna Laromaine",
+    "description": "Characterized bacterial cellulose composites using FTIR, SEM, fluorescence microscopy, and optical sensitivity experiments. Gained experience in bacterial passages and silk production."
+  },
+  {
+    "title": "PURE Undergraduate Researcher",
+    "location": "Sabancı University · Istanbul, Türkiye",
+    "dates": "Feb. – Jun. 2022",
+    "advisor": "Güllü Kızıltaş Şendur",
+    "description": "Demonstrated 3D printing of molds and biosensor production using conductive polymers."
+  },
+  {
+    "title": "Research Intern · Erasmus+",
+    "location": "Italian Institute of Technology (IIT) · Pisa, Italy",
+    "dates": "Jun. – Aug. 2021",
+    "advisor": "Gianni Ciofani",
+    "description": "Synthesized and characterized cell-membrane-coated polymer nanoparticles for glioblastoma multiforme treatment using SEM, DLS, and confocal microscopy. Worked with human cell cultures and polymer synthesis."
+  },
+  {
+    "title": "Design Engineer",
+    "location": "Turkish Aerospace Industries (TAI) · Istanbul, Türkiye",
+    "dates": "Mar. – Jun. 2023",
+    "advisor": "",
+    "description": "Trained in structural design and characterization of aerospace vehicle parts."
+  }
+]

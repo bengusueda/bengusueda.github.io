@@ -1,0 +1,9 @@
+{% for paper in include.items %}
+<article class="publication-item p-3 {% unless forloop.first %}border-top{% endunless %}">
+  <div class="small text-muted mb-1">{{ paper.year }}{% if paper.status != '' %} · {{ paper.status }}{% endif %}</div>
+  <h3 class="h6 mb-2">{% if paper.doi != '' %}<a href="https://doi.org/{{ paper.doi }}" target="_blank" rel="noopener noreferrer">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</h3>
+  <p class="small mb-1">{{ paper.authors | replace: 'B. S. Sengul', '<strong>B. S. Sengul</strong>' }}</p>
+  <p class="small mb-1"><em>{{ paper.venue }}</em></p>
+  {% if paper.doi != '' %}<a class="small" href="https://doi.org/{{ paper.doi }}" target="_blank" rel="noopener noreferrer">DOI: {{ paper.doi }}</a>{% endif %}
+</article>
+{% endfor %}
