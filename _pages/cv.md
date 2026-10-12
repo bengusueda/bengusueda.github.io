@@ -1,64 +1,58 @@
 ---
-layout: archive
-title: "CV"
+title: CV
+navbar_title: CV
 permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
+description: "Curriculum vitae · 2026"
 ---
 
-{% include base_path %}
+<p><a class="cv-button" href="{{ site.data.profile.cv_link | relative_url }}"><i class="fas fa-file-pdf cv-button-icon" aria-hidden="true"></i> Download full CV (PDF)</a></p>
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Education
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+{% for item in site.data.profile.education %}
+### {{ item.institution }}
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+{{ item.degree }} · {{ item.dates }}<br>
+{{ item.detail }}
+{% endfor %}
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+At Sabancı University, I received a full scholarship for academic excellence and was on the Dean’s High Honour List. My undergraduate advisor was Gözde Özaydın İnce.
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+<h2 id="awards">Awards & grants</h2>
+
+{% include cv-records.html items=site.data.awards %}
+
+## Research experience
+
+{% include cv-records.html items=site.data.experience %}
+
+## Publications
+
+{% include publication-list.html items=site.data.publications %}
+
+## Conferences & talks
+
+{% include cv-records.html items=site.data.talks %}
+
+Conference attendance also includes MRS Spring Meeting (2024), the Workshop on Simulating Soft Matter with Dissipative Particle Dynamics (2022), and METU Astrobiology Conferences (2018, 2019).
+
+## Teaching & mentoring
+
+{% include cv-records.html items=site.data.teaching %}
+
+## Service & outreach
+
+{% include cv-records.html items=site.data.service %}
+
+## Workshops
+
+{% include cv-records.html items=site.data.workshops %}
+
+## Skills
+
+**Languages:** Turkish (native), English (advanced; TOEFL iBT 100), Spanish (intermediate; DELE B1).
+
+**Laboratory:** Atomic force microscopy, small/wide-angle X-ray scattering, cryogenic electron microscopy, fluorescence correlation spectroscopy, confocal microscopy, single particle profiler, small-angle neutron scattering, blow spinning, electrospinning, iCVD, and cell culture.
+
+**Programming:** Python, MATLAB.<br>
+**Data analysis & design:** AutoCAD, Gwyddion, Igor, BioXTAS RAW.

@@ -1,0 +1,8 @@
+<div class="cv-records">
+{% for item in include.items %}
+<article class="cv-record">
+  <div class="small text-muted cv-date">{{ item.dates }}</div>
+  <div><h3 class="h6 mb-1">{{ item.title }}</h3>{% if item.location %}<div class="small mb-1">{{ item.location }}</div>{% endif %}{% if item.advisor and item.advisor != '' %}<div class="small text-muted mb-2">Advisor{% if item.advisor contains ' and ' %}s{% endif %}: {{ item.advisor }}</div>{% endif %}{% if item.description != '' %}<p class="small mb-0">{{ item.description }}</p>{% endif %}</div>
+</article>
+{% endfor %}
+</div>

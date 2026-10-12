@@ -1,0 +1,11 @@
+<div class="profile-sticky card border-0 shadow-sm bg-white mb-3">
+  <div class="card-body px-4 pt-4 pb-3 text-center">
+    <div class="profile-monogram" aria-hidden="true">BS</div>
+    <div class="h4 mt-3">{{ site.data.profile.primary_name }}</div>
+    <div class="small">{% for position in site.data.profile.positions %}{{ position.name }}<br>{% endfor %}</div>
+    <p class="small text-muted mt-2 mb-2">Urbana, Illinois</p>
+    <a class="email-text" href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a>
+    <div class="profile-social mt-3"><a href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></div>
+    <a class="profile-cv mt-3" href="{{ site.data.profile.cv_link | relative_url }}">Download CV <span class="small">(PDF)</span></a>
+  </div>
+</div>

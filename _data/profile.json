@@ -1,0 +1,41 @@
+{
+  "primary_name": "Bengü Süeda Şengül",
+  "navbar_name": "Bengü Süeda Şengül",
+  "email": "bsengl2@illinois.edu",
+  "linkedin": "bengu-sueda-sengul",
+  "cv_link": "/CV_2026.pdf",
+  "positions": [
+    {
+      "name": "Ph.D. Candidate"
+    },
+    {
+      "name": "Materials Science and Engineering"
+    },
+    {
+      "name": "University of Illinois Urbana-Champaign"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Illinois Urbana-Champaign",
+      "degree": "Ph.D. in Materials Science and Engineering",
+      "dates": "Aug. 2023 – present",
+      "detail": "Advisor: Cecilia Leal · GPA: 3.78/4.00",
+      "logo": "/assets/img/illinois.jpg"
+    },
+    {
+      "institution": "Sabancı University",
+      "degree": "B.Sc. in Materials Science and Nano Engineering",
+      "dates": "Sep. 2019 – Jun. 2023",
+      "detail": "Minors in Chemistry and Physics · GPA: 3.9/4.0",
+      "logo": ""
+    },
+    {
+      "institution": "Arı Private High School",
+      "degree": "IB Diploma Programme",
+      "dates": "Sep. 2015 – Jun. 2019",
+      "detail": "38/45 points · Ankara, Türkiye",
+      "logo": ""
+    }
+  ]
+}
